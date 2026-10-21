@@ -12,7 +12,7 @@ export default function Achievements() {
   return (
     <section id="achievements" aria-labelledby="ach-title" className="scroll-mt-20 py-16">
       <div className="container-x">
-        <SectionHeading id="ach-title" title="Achievements and certifications" desc="Placeholders only — no credentials are claimed here." />
+        <SectionHeading id="ach-title" title="Achievements and certifications"  />
         <div className="mb-6 flex flex-wrap gap-2" role="group" aria-label="Filter by category">
           {cats.map((c) => <button key={c} type="button" className="chip-btn" aria-pressed={cat === c} onClick={() => setCat(c)}>{c}</button>)}
         </div>

@@ -6,7 +6,7 @@ export default function Education() {
   return (
     <section id="education" aria-labelledby="edu-title" className="scroll-mt-20 py-16">
       <div className="container-x">
-        <SectionHeading id="edu-title" title="Education" desc="Sample records — replace with your real academic history." />
+        <SectionHeading id="edu-title" title="Education"  />
         <ol className="relative space-y-6 border-l-2 border-line pl-6 sm:pl-8">
           {profile.education.map((e) => (
             <li key={e.institution} className="relative">

@@ -41,7 +41,7 @@ export default function Blog() {
           </article>
         ) : (
           <>
-            <SectionHeading id="blog-title" title="Blog" desc="Sample drafts clearly marked as unpublished. Replace them with your own writing." />
+            <SectionHeading id="blog-title" title="Blog" />
             <div className="card mb-8 space-y-5">
               <div>
                 <label htmlFor="b-search" className="mb-1.5 block font-medium">Search articles</label>

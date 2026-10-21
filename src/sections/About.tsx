@@ -6,7 +6,7 @@ export default function About() {
   return (
     <section id="about" aria-labelledby="about-title" className="scroll-mt-20 py-16">
       <div className="container-x">
-        <SectionHeading id="about-title" title="About me" desc="Placeholder content — edit it in src/data/profile.ts." />
+        <SectionHeading id="about-title" title="About me"  />
         <div className="grid gap-10 lg:grid-cols-2">
           <div className="max-w-prose space-y-4 text-lg">
             {profile.aboutParagraphs.map((p) => <p key={p}>{p}</p>)}
