@@ -32,8 +32,7 @@ export default function Home() {
         </div>
                 <div className="mx-auto w-full max-w-xs">
           <img
-            src="/public/images/profile.jpeg"
-            alt={`${profile.name} profile photo`}
+            src="/images/profile.jpeg"   alt={`${profile.name} profile photo`}
             className="aspect-square w-full rounded-[2rem] border border-line object-cover"
           />
         </div>
